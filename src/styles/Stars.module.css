@@ -1,0 +1,43 @@
+
+.star {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+  }    
+  
+  .small {
+    width: 2px;
+    height: 2px;
+  }
+  
+  .medium {
+    width: 3px;
+    height: 3px;
+  }
+  
+  .large {
+    width: 4px;
+    height: 4px;
+  }
+  
+   @keyframes twinkle {
+    0% {
+        opacity: 0.1;
+    }
+  
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  .star:nth-child(2n) {
+    animation: twinkle 1s infinite alternate;
+  }
+  .star:nth-child(1n) {
+    animation: twinkle 10s infinite alternate;
+  }
+  
+  .star:nth-child(3n) {
+    animation: twinkle 5s infinite alternate;
+  }   
+  

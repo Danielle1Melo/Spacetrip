@@ -1,0 +1,109 @@
+.container{
+    margin-top: 10rem;
+    padding: 0 10rem;
+    display: flex;
+
+}
+
+.btn{
+    color: var(--text-color);
+    background-color: var(--button);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 15px 70px;
+    border: none;
+    transition: all ease-in-out 0.2s;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    transition: all ease-in-out 0.2s;
+    box-shadow: 0px 0px 20px 0px var(--button);
+  }
+
+.modalHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.modal{
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    right: 40px;
+    bottom: 50px; 
+    /* width: 80%;
+    height: 50%; */
+    /* border: 1px solid ; */
+    background-color: var(--backgroung-opacity);
+    border-radius: 20px;
+    padding: 25px; 
+}
+
+.modalContent{
+
+    margin: auto;
+    padding: 20px;
+
+}
+ 
+.close {
+    color: #aaa;
+    float: left;
+    font-size: 10px;
+
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@media(max-width:1025px){
+    .container{
+        padding: 0px 16px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+    }
+
+
+    .images{
+        border-radius: 2rem;
+    }
+
+    .section > h2{
+        font-size: 2rem;
+        font-weight: 300;
+        margin-top: 1rem;
+    }
+    .section > p{
+        font-size: 1.1rem;
+        font-weight: 300;
+        margin-top: 1rem;
+    }
+
+    .btn{
+        color: var(--text-color);
+        background-color: var(--button);
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: 15px 70px;
+        border: none;
+        transition: all ease-in-out 0.2s;
+        margin-top: 2rem;
+    }
+
+    .btn:hover{
+        transition: all ease-in-out 0.2s;
+        box-shadow: 0px 0px 20px 0px var(--button);
+      }
+}

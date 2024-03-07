@@ -1,0 +1,20 @@
+{
+    "items": {
+        "bootstrap":[
+            {
+                "id": 1,
+                
+                "title": "Swiper Carousel Example",
+                "text": "Lorem Ipsum  dolor sit amet consectetur adipisicing elit.",
+                "imageUrl": "../../assets/rocket.jpg"
+            },
+            {
+                "id": 1,
+                
+                "title": "Swiper Carousel Example",
+                "text": "Lorem Ipsum  dolor sit amet consectetur adipisicing elit.",
+                "imageUrl": "../../assets/rocket.jpg"
+            }
+        ]
+    }
+}
